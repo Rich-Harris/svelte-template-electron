@@ -4,11 +4,11 @@ import { app, BrowserWindow } from 'electron';
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
-let win;
+let win: BrowserWindow | null;
 
 const mode = process.env.NODE_ENV;
 
-function reloadOnChange(win) {
+function reloadOnChange(win: BrowserWindow) {
 	if (mode !== 'development') return { close: () => {} };
 
 	const watcher = require('chokidar').watch(path.join(__dirname, '**'), { ignoreInitial: true });

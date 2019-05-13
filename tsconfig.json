@@ -1,18 +1,13 @@
 {
-    "compilerOptions": {
-        "target": "ES6",
-        "diagnostics": true,
-        "noImplicitThis": true,
-        "noEmitOnError": true,
-        "allowJs": true,
-        "lib": ["es5", "es6", "dom"],
-        "importHelpers": true,
-        "moduleResolution": "node"
-    },
-    "include": [
-        "src"
-    ],
-    "exclude": [
-        "node_modules"
-    ]
+	"exclude": ["node_modules"],
+
+	"compilerOptions": {
+ 		"target": "esnext",
+		"module": "esnext",
+		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+
+		"lib": ["dom", "dom.iterable", "esnext", "scripthost"]
+	}
 }

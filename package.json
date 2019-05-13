@@ -1,8 +1,8 @@
 {
-  "name": "template-electron",
+  "name": "svelte-template-electron",
   "version": "0.0.1",
   "description": "A template for building Electron apps with Svelte",
-  "main": "dist/main.ts.js",
+  "main": "dist/main.js",
   "scripts": {
     "start": "cross-env NODE_ENV=development electron .",
     "dev": "rollup -cw",
@@ -20,20 +20,20 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^2.0.0",
-    "electron-builder": "^20.13.4",
-    "rollup": "^0.59.1",
-    "rollup-plugin-commonjs": "^9.1.3",
-    "rollup-plugin-json": "^3.0.0",
-    "rollup-plugin-node-resolve": "^3.3.0",
-    "rollup-plugin-svelte": "^4.1.0",
-    "rollup-plugin-typescript": "^0.8.1",
-    "svelte": "^2.6.5",
-    "tslib": "^1.9.1",
-    "typescript": "^2.8.3"
+    "electron": "^5.0.1",
+    "electron-builder": "^20.40.2",
+    "rollup": "^1.11.3",
+    "rollup-plugin-commonjs": "^9.3.4",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^4.2.4",
+    "rollup-plugin-svelte": "^5.0.3",
+    "rollup-plugin-typescript": "^1.0.1",
+    "svelte": "^3.3.0",
+    "tslib": "^1.9.3",
+    "typescript": "^3.4.5"
   },
   "dependencies": {
-    "chokidar": "^2.0.3",
-    "cross-env": "^5.1.6"
+    "chokidar": "^3.0.0",
+    "cross-env": "^5.2.0"
   }
 }
