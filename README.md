@@ -1,4 +1,4 @@
-# template-electron
+# svelte-template-electron
 
 A simple boilerplate for building Electron apps with Svelte.
 
