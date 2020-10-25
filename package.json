@@ -2,7 +2,7 @@
   "name": "template-electron",
   "version": "0.0.1",
   "description": "A template for building Electron apps with Svelte",
-  "main": "dist/main.ts.js",
+  "main": "dist/main.js",
   "scripts": {
     "start": "cross-env NODE_ENV=development electron .",
     "dev": "rollup -cw",
